@@ -1,0 +1,96 @@
+# ==========================================
+# Fichiers d'environnement et secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# Garder le template d'exemple
+!.env.example
+
+# ==========================================
+# Environnements virtuels Python
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Fichiers compilés et caches Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Bases de données & Fichiers de données
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+data/*.db
+data/*.sqlite3
+
+# ==========================================
+# Logs et fichiers temporaires
+# ==========================================
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Caches de test et couverture
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Fichiers système et éditeurs (IDE)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
