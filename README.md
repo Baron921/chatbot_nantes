@@ -106,7 +106,7 @@ OPENAI_MODEL=gpt-4o-mini
 
 ---
 
-## 📡 Documentation des Endpoints API
+## Documentation des Endpoints API
 
 FastAPI génère automatiquement la documentation interactive Swagger accessible sur :
 **`http://localhost:3000/docs`**
